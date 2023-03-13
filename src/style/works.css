@@ -1,0 +1,75 @@
+.parent
+{
+    width: 100%;
+    height: 170vh;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.holder
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.para
+{
+    width: 100%;
+    height: 22%;
+    
+    text-align: start;
+    
+
+}
+.para>h2
+{
+   display: inline;
+   font-size: 35px;
+   font-family: 'Josefin Sans', sans-serif;
+   color: #193e46 ;
+   text-transform: capitalize;
+   transition: 3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.para p
+{
+    font-family: 'Roboto', sans-serif;
+    
+    color: #545c5f;
+}
+
+
+/* **** responsive **** */
+
+@media (max-width:450px) {
+.parent
+{
+   
+    height: 160vh;
+  
+}
+
+
+.para>h2
+{
+
+   font-size: 25px;
+ 
+
+}
+
+.para p
+{
+
+    font-size: 10px;
+  
+}
+
+}

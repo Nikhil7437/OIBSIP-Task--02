@@ -1,0 +1,163 @@
+.cnt
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.cnt h2
+{
+    line-height: 0;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:  #193e46;
+}
+.cnt p
+{ 
+      color: #545c5f;
+    font-weight: 900;
+    font-size: 20px;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.blocks
+{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.block
+{
+    width: 45%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    /* justify-content: center; */
+    /* background-color: red; */
+   
+}
+.left {
+position: relative;
+
+    
+}
+.left .hh{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    
+    /* background-color: blue; */
+}
+.left h1{
+   
+/* position: absolute; */
+
+
+font-size: 80px;
+text-transform: capitalize;
+font-family: 'Josefin Sans', sans-serif;
+color:#193e46 ;
+
+}
+.right 
+{
+   padding: 20px;
+    
+    
+}
+.right h4
+{
+    font-size: 30px;
+    color: #545c5f;
+    
+}
+.right p
+{
+    font-size: 20;
+    font-family: 'Roboto', sans-serif;
+    color: #545c5f;
+
+    
+}
+
+
+/* *** esponsive *** */
+@media (max-width:450px) {
+
+    .cnt
+{
+
+    height: 70vh;
+    /* background-color: red; */
+   
+    
+}
+.cnt h2
+{
+ 
+    font-size: 40px;
+ 
+}
+.cnt p
+{ 
+    width: 60%;
+    text-align: center;
+    font-size: 10px;
+   
+}
+.blocks
+{
+    width: 90%;
+    height: 80%;
+  
+}
+.block
+{
+    width: 48%;
+   
+}
+.left {
+position: relative;
+
+    
+}
+.left .hh{
+  
+    top: 30%;
+    left: 20%;
+}
+.left h1{
+   font-size: 50px;
+   width: 50%;
+}
+.right 
+{
+   /* padding: 20px;   */
+}
+.right h4
+{
+    font-size: 20px;
+    color: #545c5f;
+    
+}
+.right p
+{
+    width: 100%;
+    font-size: 20;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #545c5f; 
+}
+    
+}
