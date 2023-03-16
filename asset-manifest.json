@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/OIBSIP-Task--02/static/css/main.d3e0d1c8.css",
+    "main.js": "/OIBSIP-Task--02/static/js/main.971e6c59.js",
+    "static/js/787.497daacb.chunk.js": "/OIBSIP-Task--02/static/js/787.497daacb.chunk.js",
+    "static/media/h3.jpg": "/OIBSIP-Task--02/static/media/h3.cd6d46311b91896c85ef.jpg",
+    "static/media/facenew.png": "/OIBSIP-Task--02/static/media/facenew.e0a94d7ce6458c8d601a.png",
+    "static/media/h2.jpg": "/OIBSIP-Task--02/static/media/h2.7e66ccab03e38c501187.jpg",
+    "static/media/h1.jpg": "/OIBSIP-Task--02/static/media/h1.d591de4acd801a8bf293.jpg",
+    "static/media/home.webp": "/OIBSIP-Task--02/static/media/home.f6cae98834825aa6bb6d.webp",
+    "static/media/bio.webp": "/OIBSIP-Task--02/static/media/bio.ad18bdaee485167a7e06.webp",
+    "index.html": "/OIBSIP-Task--02/index.html",
+    "main.d3e0d1c8.css.map": "/OIBSIP-Task--02/static/css/main.d3e0d1c8.css.map",
+    "main.971e6c59.js.map": "/OIBSIP-Task--02/static/js/main.971e6c59.js.map",
+    "787.497daacb.chunk.js.map": "/OIBSIP-Task--02/static/js/787.497daacb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3e0d1c8.css",
+    "static/js/main.971e6c59.js"
+  ]
+}
